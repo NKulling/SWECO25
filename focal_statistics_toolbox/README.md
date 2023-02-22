@@ -4,8 +4,8 @@
 
 The necessary inputs for this tool are:
 
-1. a folder containing one or several raster layers
-2. an output folder
+1. A folder containing one or several raster layers
+2. An output folder
 
 The **mean**  value is calculated on a circle with varying radius. 
 
