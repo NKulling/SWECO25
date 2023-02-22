@@ -10,7 +10,7 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 | ------------------ | -------------------------------------- |
 | Spatial extent     | 2480000, 2840000, 1070000, 1300000     |
 | CRS                | CH1903+ / LV95 (EPSG:2056)             |
-| Grid               | Swiss-wide raster grid, available here |
+| Grid               | Swiss-wide, SWECO25 standard grid      |
 | Spatial resolution | 25, 25  (x, y)                         |
 
 ## Reprocessing template 
