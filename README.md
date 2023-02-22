@@ -5,7 +5,6 @@ SWECO25 is a 25-meter resolution raster database gathering XXX layers on 10 main
 ## Details of SWECO25 database
 
 
-| ------------------ | -------------------------------------- |
 | Spatial resolution | 25 meters                              |
 | Spatial extent     |                                        |
 | CRS                | Swiss CH1903+ / LV95, EPSG:2056        |
