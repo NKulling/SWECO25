@@ -9,7 +9,7 @@ The **mean**  value is calculated on a circle with varying radius.
 
 Below is the representation of the ArcGIS Pro Modelbuilder structure used for this process 
 
-![](https://github.com/NKulling/SWECO25_datapaper/blob/f1a863ca029518be477f19a75ebd704b1f38b58e/modelbuilder_focal_sweco.JPG)
+![](https://github.com/NKulling/SWECO25/blob/main/figs/focal_statistics_modelbuilder_SWECO25.JPG)
 
 
 
