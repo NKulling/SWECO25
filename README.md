@@ -1,16 +1,12 @@
-## SWECO25 Focal statistics toolbox
+## SWECO25
 
-[This toolbox](focal_statistics_SWECO25.tbx) automatically computes focal statistics on each raster layer from the input folder, with an output of 13 raster layers with 13 focal statistics radius ranging from 25m to 5000m. The necessary inputs for this tool are 
+SWECO25 is a 25-meter resolution raster database gathering XXX layers on 10 main environmental categories for ecological research in Switzerland. Layers available in SWECO25 were standardized using a common spatial grid covering all of Switzerland so they all share the same spatial resolution, extent, and projected coordinate reference system. The SWECO25 database includes both the standardized sources and derived layers, such as those obtained by computing focal statistics or distance functions. The SWECO25 database is openly available at XXX.
 
-1. a folder containing one or several raster layers
-2. an output folder
+## Details of SWECO25 database
 
-The **mean**  value is calculated on a circle with varying radius. 
-
-Below is the representation of the ArcGIS Pro Modelbuilder structure used for this process 
-
-![](https://github.com/NKulling/SWECO25_datapaper/blob/f1a863ca029518be477f19a75ebd704b1f38b58e/modelbuilder_focal_sweco.JPG)
-
-
+| Spatial resolution | 25 meters                              |
+| Spatial extent     |                                        |
+| CRS                | Swiss CH1903+ / LV95, EPSG:2056        |
+| Grid               | Swiss-wide raster grid, available here |
 
 
