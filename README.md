@@ -20,6 +20,6 @@ A reprocessing code example written in R is available [here](https://github.com/
 
 ## Generation of focal statistics layers
 
-Focal statistics layers were computed by applying a cell-level function calculating the average value in a circular moving window of 13 radii ranging from 25m to 5km. An ArcGIS toolbox to produce the same layers from a source layer is available here. 
+Focal statistics layers were computed by applying a cell-level function calculating the average value in a circular moving window of 13 radii ranging from 25m to 5km. An ArcGIS toolbox to produce the same layers from a source layer is available [here](https://github.com/NKulling/SWECO25/tree/main/focal_statistics_toolbox). 
 
 
