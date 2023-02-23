@@ -16,7 +16,7 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 ## Reprocessing of layers
 
 Layers were reprocessed to fit the standards of SWECO25 in terms or extent, CRS, resolution and spatial grid. 
-A reprocessing code example written in R is available here. 
+A reprocessing code example written in R is available [here](https://github.com/NKulling/SWECO25/tree/main/layer_standardization_example). 
 
 ## Generation of focal statistics layers
 
