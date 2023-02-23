@@ -16,10 +16,10 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 ## Reprocessing of layers
 
 Layers were reprocessed to fit the standards of SWECO25 in terms or extent, CRS, resolution and spatial grid. 
-A reprocessing code example written in R is available [here](https://github.com/NKulling/SWECO25/tree/main/layer_standardization_example). 
+More details on the process and a code example written in R are available [here](https://github.com/NKulling/SWECO25/tree/main/layer_standardization_example). 
 
 ## Generation of focal statistics layers
 
-Focal statistics layers were computed by applying a cell-level function calculating the average value in a circular moving window of 13 radii ranging from 25m to 5km. An ArcGIS toolbox to produce the same layers from a source layer is available [here](https://github.com/NKulling/SWECO25/tree/main/focal_statistics_toolbox). 
+Focal statistics layers were computed by applying a cell-level function calculating the average value in a circular moving window of 13 radii ranging from 25m to 5km. More details and an ArcGIS toolbox to produce the same layers from a source layer are available [here](https://github.com/NKulling/SWECO25/tree/main/focal_statistics_toolbox). 
 
 
