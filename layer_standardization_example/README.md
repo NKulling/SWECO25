@@ -1,6 +1,6 @@
 ## SWECO25 layer standardization
 
-This R code gives an example of the process and parameters used to reprocess the layers from the SWECO25 database. 
+[This R code](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) gives an example of the process and parameters used to reprocess the layers from the SWECO25 database. 
 The workflow of the standardization is in 4 steps: 
 
 1) Reproject the original layer to Swiss CRS 
