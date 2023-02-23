@@ -13,9 +13,13 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 | Grid               | Swiss-wide, SWECO25 standard grid      |
 | Spatial resolution | 25, 25  (x, y)                         |
 
-## Reprocessing template 
+## Reprocessing of layers
 
 Layers were reprocessed to fit the standards of SWECO25 in terms or extent, CRS, resolution and spatial grid. 
 A reprocessing code example written in R is available here. 
+
+## Generation of focal statistics layers
+
+Focal statistics layers were computed by applying a cell-level function calculating the average value in a circular moving window of 13 radii ranging from 25m to 5km. An ArcGIS toolbox to produce the same layers from a source layer is available here. 
 
 
