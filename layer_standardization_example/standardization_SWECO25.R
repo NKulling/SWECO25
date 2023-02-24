@@ -7,7 +7,7 @@ library(terra)
 
 outfold<-"C:/..."                                     #Output folder
 sweco.grid<-rast("C:/.../SWECO25-standardgrid.tif")   #Loading standard grid
-files<-readRDS("C:/.../pathsfiles.rds")          #List of paths to file names that we want reprocessed
+files<-readRDS("C:/.../pathsfiles.rds")               #List of paths to file names that we want reprocessed
 
 
 #-- Reprocessing loop over each files
