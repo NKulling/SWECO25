@@ -5,9 +5,9 @@ library(terra)
 
 #-- Local variables
 
-outfold<-"C:/..."                                     #Output folder
-sweco.grid<-rast("C:/.../SWECO25-standardgrid.tif")   #Loading standard grid
-files<-readRDS("C:/.../pathsfiles.rds")               #List of paths to file names that we want reprocessed
+outfold<-"C:/..."                                                       #Output folder
+sweco.grid<-rast("C:/.../SWECO25-standardgrid.tif")                     #Loading standard grid
+files<-list.files("C:/.../folder", full.names=TRUE, pattern= "\\.tif$") #Folder containing files we want reprocessed
 
 
 #-- Reprocessing loop over each files
@@ -38,6 +38,8 @@ for(i in 1:length(files)){
   #-- Export
     
   writeRaster(a95r1,outpath, datatype=  "INT4S",overwrite=TRUE, gdal=c("COMPRESS=DEFLATE", "TFW=YES"))
+  
+  print(paste0(name.out, " exported. Process done at ", round(i*100/length(files),1),"%"))
     
   gc()
     
