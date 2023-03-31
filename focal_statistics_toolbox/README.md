@@ -1,8 +1,8 @@
-## SWECO25 Focal statistics toolbox
+## SWECO25 Focal Statistics Toolbox
 
-[This toolbox](focal_statistics_SWECO25.tbx) automatically computes focal statistics on each raster layer from the input folder, with an output of 13 raster layers with 13 focal statistics radius ranging from 25m to 5000m. 
+[This toolbox](focal_statistics_SWECO25.tbx) computes focal statistics for each raster layer from the input folder. It outputs a total of 13 raster layers with focal statistics radii ranging from 25m to 5000m. 
 
-The necessary inputs for this tool are:
+Required inputs for this toolbox are:
 
 1. A folder containing one or several raster layers
 2. An output folder
