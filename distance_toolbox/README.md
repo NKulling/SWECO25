@@ -10,3 +10,6 @@ The necessary inputs for this tool are:
 
 
 Below is the representation of the ArcGIS Pro Modelbuilder structure used in this toolbox 
+
+![https://github.com/NKulling/SWECO25/blob/main/figs/distance_modelbuilder_SWECO25.JPG]()
+
