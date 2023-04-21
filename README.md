@@ -4,24 +4,7 @@ SWECO25 is a 25-meter resolution raster database for ecological research in Swit
 
 Layers available in SWECO25 were standardized using a common spatial grid covering all of Switzerland so they all share the same spatial resolution, extent, and projected coordinate reference system. The SWECO25 database includes both the standardized sources and derived layers, such as those obtained by computing focal statistics or distance functions. The SWECO25 database is openly available on Zenodo.
 
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://sandbox.zenodo.org/communities/sweco25/)
-
-
-<style>
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-</style>
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-DOWNLOAD%20SWECO25-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://sandbox.zenodo.org/communities/sweco25/)
 
 
 ## Spatial characteristics
