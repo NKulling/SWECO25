@@ -17,7 +17,16 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 
 ## Layer processing
 
-Individual layers from selected datasets were processed following an eight-step standardization procedure: (i) rasterization of vector layers, (ii) reprojection to the CH1903+ coordinate reference system, (iii) resampling to a common spatial grid of 25-meter resolution, (iv) transformation of discrete data to continuous ones (e.g. from discrete land use and cover classes to percentage cover), (v) computation of distance statistics for linear features (e.g., Euclidean and path distance to roads or rivers), (vi) computation of focal statistics by applying a cell-level function calculating the average value in a circular moving window of 13 radii ranging from 25m to 5km, (vii) conversion of decimals to integer values (multiplied by 100 and rounded) for storage efficiency purposes, and (viii) saving the final raster layers as .TIF files.
+Individual layers from selected datasets were processed following an  eight-step standardization procedure:
+
+1. rasterization of vector  layers
+2. reprojection to the CH1903+ coordinate reference system
+3. resampling to a common spatial grid of 25-meter resolution
+4. transformation of discrete data to continuous ones (e.g. from discrete  land use and cover classes to percentage cover)
+5. computation of  distance statistics for linear features (e.g., Euclidean and path  distance to roads or rivers)
+6. computation of focal statistics by  applying a cell-level function calculating the average value in a  circular moving window of 13 radii ranging from 25m to 5km
+7. conversion of decimals to integer values (multiplied by 100 and rounded) for storage efficiency purposes
+8. saving the final raster layers as GeoTiFF files and generating metadata
 
 For more details on the standardization procedure and [focal](https://github.com/NKulling/SWECO25/tree/main/focal_statistics_toolbox) or [distance](https://github.com/NKulling/SWECO25/tree/main/distance_toolbox) statistics computation see the [R-code](https://github.com/NKulling/SWECO25/tree/main/layer_standardization_example) and ArcGIS toolboxes.
 
