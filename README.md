@@ -7,11 +7,6 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 
 [![Download ](https://custom-icon-badges.herokuapp.com/badge/-DOWNLOAD%20SWECO25-blue?style=for-the-badge&logo=download&logoColor=white "Go to SWECO25 Zenodo repository")](https://sandbox.zenodo.org/communities/sweco25/)
 
-
-
-
-
-
 ## Spatial characteristics
 | Parameter  | Value |
 | ------------- | ------------- |
