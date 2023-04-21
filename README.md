@@ -1,6 +1,6 @@
 ## SWECO25
 
-SWECO25 is a 25-meter resolution raster database for ecological research in Switzerland gathering 5,383 layers on 10 main environmental categories.
+SWECO25 is a 25-meter resolution raster database for ecological research in Switzerland gathering 5,265 layers on 10 main environmental categories.
 
 Layers available in SWECO25 were standardized using a common spatial grid covering all of Switzerland so they all share the same spatial resolution, extent, and projected coordinate reference system. The SWECO25 database includes both the standardized sources and derived layers, such as those obtained by computing focal statistics or distance functions. The SWECO25 database is openly available on Zenodo.
 
