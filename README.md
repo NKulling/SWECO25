@@ -20,7 +20,7 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 Individual layers from selected datasets were processed following an  eight-step standardization procedure:
 
 1. rasterization of vector  layers
-2. reprojection to the CH1903+ coordinate reference system
+2. reprojection to the CH1903+ / LV95 geographic reference system
 3. resampling to a common spatial grid of 25-meter resolution
 4. transformation of discrete data to continuous ones (e.g. from discrete  land use and cover classes to percentage cover)
 5. computation of  distance statistics for linear features (e.g., Euclidean and path  distance to roads or rivers)
