@@ -18,7 +18,7 @@ for(i in 1:length(files)){
   
   a<-  rast(files[i])
   
-  #-- Projecting to Swiss CRS (LV95)
+  #-- Projecting to Swiss GCS (LV95)
     
   a95<- terra::project(a,"epsg:2056",threads=TRUE) 
     
@@ -37,7 +37,7 @@ for(i in 1:length(files)){
     
   #-- Export
     
-  writeRaster(a95r1,outpath, datatype=  "INT4S",overwrite=TRUE, gdal=c("COMPRESS=DEFLATE", "TFW=YES"))
+  writeRaster(a95r1,outpath, datatype=  "INT4S", overwrite=TRUE, gdal=c("COMPRESS=DEFLATE", "TFW=YES"))
   
   print(paste0(name.out, " exported. Process done at ", round(i*100/length(files),1),"%"))
     
