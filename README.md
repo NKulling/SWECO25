@@ -1,4 +1,4 @@
-## SWECO25 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?page=1&size=20&url=https%3A%2F%2Fsandbox.zenodo.org%2Fcommunities%2Fsweco25%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+## SWECO25 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsandbox.zenodo.org%2Fcommunities%2Fsweco25%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 SWECO25 is a 25-meter resolution raster database for ecological research in Switzerland gathering 5,265 layers on 10 main environmental categories.
 
