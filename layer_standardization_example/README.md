@@ -24,7 +24,16 @@ git clone https://github.com/your-username/your-repo.git
 
 Step 2: Set Up Local Variables
 
-In the downloaded repository, open the R script [standardization_SWECO25.R](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) and set the local variables:
+In the downloaded repository, open the R script [standardization_SWECO25.R](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) and set the local variable:
 
-    repo: path to the SWECO25 repository in your local machine 
-   
+repo: path to the SWECO25 repository in your local machine 
+
+Step 3: Run the Processing Script
+
+In your R environment, execute the dataset_processing.R script. This script will perform the following processing steps for each input file:
+
+    Load the raster file.
+    Project the raster to Swiss GCS (LV95).
+    Re-sample the raster to the SWECO grid.
+    Multiply the raster values by 100 and round them.
+    Export the processed raster as a GeoTIFF file.
