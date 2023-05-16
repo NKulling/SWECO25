@@ -4,8 +4,8 @@
 
 The toolbox requires the following inputs:
 
-    A folder containing one or multiple raster layers.
-    An output folder to store the results.
+1) A folder containing one or multiple raster layers.
+2) An output folder to store the results.
 
 The **mean** value is calculated within circular areas with varying radii.
 
