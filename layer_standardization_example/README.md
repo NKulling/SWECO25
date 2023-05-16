@@ -19,7 +19,7 @@ git clone https://github.com/NKulling/SWECO25.git
 
 ### Step 2: Set Up Local Variables
 
-Open the R script standardization_SWECO25_LV03.R or standardization_SWECO25_WGS84.R (depending on the source data GCS) within the downloaded repository. Set the following local variable:
+Open the R script `standardization_SWECO25_LV03.R` or `standardization_SWECO25_WGS84.R` (depending on the source data GCS) within the downloaded repository. Set the following local variable:
 
 ```R
 #-- Local variables
@@ -28,7 +28,7 @@ repo<-"C:/path_to_the_repo/SWECO25"  # Path to the cloned sweco25 repository
 
 ### Step 3: Run the Processing Script
 
-Execute the standardization_SWECO25_LV03.R or standardization_SWECO25_WGS84.R script within your R environment. This script will carry out the following processing steps for each input file (in the provided example data, there is only one file):
+Execute the `standardization_SWECO25_LV03.R` or `standardization_SWECO25_WGS84.R` script within your R environment. This script will carry out the following processing steps for each input file (in the provided example data, there is only one file per pipeline):
 
 1) Load the raster file.
 2) Project the raster to Swiss GCS (LV95).
