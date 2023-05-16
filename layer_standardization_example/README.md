@@ -16,8 +16,15 @@ and follow these steps :
 
 Step 1: Clone the Repository
 
-Clone the repository containing the dataset processing code to your local machine:
+Clone the repository containing the dataset processing code to your local machine using the command line
 
 ```console
 git clone https://github.com/your-username/your-repo.git
 ```
+
+Step 2: Set Up Local Variables
+
+In the downloaded repository, open the R script [standardization_SWECO25.R](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) and set the local variables:
+
+    repo: path to the SWECO25 repository in your local machine 
+   
