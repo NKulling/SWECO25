@@ -1,6 +1,6 @@
 ## SWECO25 Layer Standardization
 
-This section offers an illustrative example of how the standardization of SWECO25 layers was carried out. Two distinct standardization pipelines are provided here, allowing for the standardization of raster layers in a manner consistent with SWECO25. One pipeline utilizes original raster data from the WGS84 CRS, while the other employs original raster data from the LV03 CRS.
+This section offers an illustrative example of how the standardization of SWECO25 layers was carried out. Two distinct standardization pipelines are provided here, allowing for the standardization of raster layers in a manner consistent with SWECO25. [One pipeline](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_WGS84.R) utilizes original raster data from the WGS84 CRS, while [the other](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_LV03.R) employs original raster data from the LV03 CRS.
 
 The standardization workflow includes 4 main steps: 
 
