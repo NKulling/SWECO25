@@ -26,8 +26,6 @@ git clone https://github.com/your-username/your-repo.git
 
 In the downloaded repository, open the R script [standardization_SWECO25.R](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) and set the local variable:
 
-`repo`: path to the SWECO25 repository in your local machine 
-
 ```R
 #-- Local variables
 repo<-"C:/path_to_the_repo/SWECO25"  # Path to the cloned sweco25 repository
