@@ -14,7 +14,7 @@ To reproduce the example, Make sure you have the following software and librarie
 - `terra` package
 and follow these steps :
 
-Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 Clone the repository containing the dataset processing code to your local machine using the command line
 
@@ -22,15 +22,15 @@ Clone the repository containing the dataset processing code to your local machin
 git clone https://github.com/your-username/your-repo.git
 ```
 
-Step 2: Set Up Local Variables
+### Step 2: Set Up Local Variables
 
 In the downloaded repository, open the R script [standardization_SWECO25.R](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) and set the local variable:
 
 `repo`: path to the SWECO25 repository in your local machine 
 
-Step 3: Run the Processing Script
+### Step 3: Run the Processing Script
 
-In your R environment, execute the dataset_processing.R script. This script will perform the following processing steps for each input file:
+In your R environment, execute the `standardization_SWECO25.R` script. This script will perform the following processing steps for each input file:
 
 1) Load the raster file.
 2) Project the raster to Swiss GCS (LV95).
