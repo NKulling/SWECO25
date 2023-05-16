@@ -9,7 +9,7 @@ library(gdalUtilities)
 #-- Local variables
 
 repo<-"C:/.../SWECO25"   # Path to the cloned sweco25 repository
-outfold<-paste(repo,"output_folder",sep="/")    
+outfold<-paste(repo,"output_folder_LV03",sep="/")    
 dir.create(outfold)
 
 sweco.grid<-raster(paste(repo,"data/SWECO25-standardgrid.tif",sep="/"))   #Loading standard grid
