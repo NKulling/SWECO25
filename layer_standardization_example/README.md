@@ -10,7 +10,7 @@ The standardization workflow includes 4 main steps:
 4) Export as GeoTiff
 
 To reproduce the example, Make sure you have the following software and libraries installed:
-- R programming language
+- `R` programming language
 - `terra` package
 and follow these steps :
 
@@ -26,7 +26,7 @@ Step 2: Set Up Local Variables
 
 In the downloaded repository, open the R script [standardization_SWECO25.R](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25.R) and set the local variable:
 
-repo: path to the SWECO25 repository in your local machine 
+`repo`: path to the SWECO25 repository in your local machine 
 
 Step 3: Run the Processing Script
 
@@ -37,3 +37,5 @@ In your R environment, execute the dataset_processing.R script. This script will
 3) Re-sample the raster to the SWECO grid.
 4) Multiply the raster values by 100 and round them.
 5) Export the processed raster as a GeoTIFF file.
+
+The processed file is in the `output_folder` directory
