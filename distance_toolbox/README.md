@@ -1,15 +1,14 @@
 ## SWECO25 distance toolbox
 
-[This toolbox](distance_SWECO25.tbx) computes distance layers based on polygons or linear features such as road or river networks. It outputs two distance raster layers, one computing the euclidean distance, the other the path distance (considering elevation gradients). 
+[SWECO25 Distance Calculation Toolbox](distance_SWECO25.tbx) calculates distance layers based on polygons or linear features, such as road or river networks. It generates two distance raster layers: one computing the Euclidean distance and the other considering elevation gradients to calculate path distance.
 
-The necessary inputs for this tool are:
+The required inputs for this toolbox are:
 
-1. A shapefile of the feature to compute the distance upon
-2. An output folder
-3. A digital terrain model (DTM) raster layer representing elevation
+1) A shapefile of the feature to compute the distance upon.
+2) An output folder to store the results.
+3) A digital terrain model (DTM) raster layer representing elevation.
 
-
-Below is the representation of the ArcGIS Pro Modelbuilder structure used in this toolbox 
+Below is the representation of the ArcGIS Pro Modelbuilder structure used in this toolbox:
 
 ![](https://github.com/NKulling/SWECO25/blob/main/figs/distance_modelbuilder_SWECO25.JPG)
 
