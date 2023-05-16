@@ -9,11 +9,6 @@ The standardization workflow includes 4 main steps:
 3) Multiply float values by 100 and round them
 4) Export as GeoTiff
 
-To reproduce the example, Make sure you have the following software and libraries installed:
-- `R` programming language
-- `terra` package
-and follow these steps :
-
 ### Step 1: Clone the Repository
 
 Clone the repository containing the dataset processing code to your local machine using the command line
