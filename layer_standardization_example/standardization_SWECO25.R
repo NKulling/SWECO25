@@ -5,10 +5,13 @@ library(terra)
 
 #-- Local variables
 
-outfold<-"C:/..."                                                       #Output folder
-sweco.grid<-rast("C:/.../SWECO25-standardgrid.tif")                     #Loading standard grid
-files<-list.files("C:/.../folder", full.names=TRUE, pattern= "\\.tif$") #Folder containing files we want reprocessed
+repo<-"C:/.../SWECO25"  # Path to the cloned sweco25 repository
 
+
+outfold<-paste(repo,"output_folder",sep="/")    
+dir.create(outfold)
+sweco.grid<-rast(paste(repo,"data/SWECO25-standardgrid.tif",sep="/"))   #Loading standard grid
+files<-list.files(paste(repo,"data",sep="/"), full.names=TRUE, pattern= "\\.tif$") #Folder containing files we want reprocessed
 
 #-- Reprocessing loop over each files
 
