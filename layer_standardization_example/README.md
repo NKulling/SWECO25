@@ -32,8 +32,8 @@ Step 3: Run the Processing Script
 
 In your R environment, execute the dataset_processing.R script. This script will perform the following processing steps for each input file:
 
-1)Load the raster file.
-2)Project the raster to Swiss GCS (LV95).
-3)Re-sample the raster to the SWECO grid.
-4)Multiply the raster values by 100 and round them.
-5)Export the processed raster as a GeoTIFF file.
+1) Load the raster file.
+2) Project the raster to Swiss GCS (LV95).
+3) Re-sample the raster to the SWECO grid.
+4) Multiply the raster values by 100 and round them.
+5) Export the processed raster as a GeoTIFF file.
