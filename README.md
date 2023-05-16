@@ -1,4 +1,4 @@
-## SWECO25
+## SWECO25 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsandbox.zenodo.org%2Fcommunities%2Fsweco25%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 SWECO25 is a 25-meter resolution raster database for ecological research in Switzerland gathering 5,265 layers on 10 main environmental categories.
 
@@ -6,7 +6,7 @@ Layers available in SWECO25 were standardized using a common spatial grid coveri
 
 
 [![Download ](https://custom-icon-badges.herokuapp.com/badge/-DOWNLOAD%20SWECO25-blue?style=for-the-badge&logo=download&logoColor=white "Go to SWECO25 Zenodo repository")](https://sandbox.zenodo.org/communities/sweco25/)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsandbox.zenodo.org%2Fcommunities%2Fsweco25%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 ## Spatial characteristics
 | Parameter  | Value |
