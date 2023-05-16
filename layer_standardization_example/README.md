@@ -28,6 +28,11 @@ In the downloaded repository, open the R script [standardization_SWECO25.R](http
 
 `repo`: path to the SWECO25 repository in your local machine 
 
+```R
+#-- Local variables
+repo<-"C:/path_to_the_repo/SWECO25"  # Path to the cloned sweco25 repository
+```
+
 ### Step 3: Run the Processing Script
 
 In your R environment, execute the `standardization_SWECO25.R` script. This script will perform the following processing steps for each input file:
