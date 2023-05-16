@@ -28,7 +28,7 @@ repo<-"C:/path_to_the_repo/SWECO25"  # Path to the cloned sweco25 repository
 
 ### Step 3: Run the Processing Script
 
-In your R environment, execute the `standardization_SWECO25.R` script. This script will perform the following processing steps for each input file:
+In your R environment, execute the `standardization_SWECO25.R` script. This script will perform the following processing steps for each input file (just 1 file in the example data):
 
 1) Load the raster file.
 2) Project the raster to Swiss GCS (LV95).
