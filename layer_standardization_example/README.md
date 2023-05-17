@@ -1,8 +1,8 @@
 ## SWECO25 Layer Standardization
 
-This section provides an example of how the standardization of SWECO25 layers was performed. It includes two separate standardization pipelines that ensure consistency with SWECO25. [One pipeline](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_WGS84.R) utilizes original raster data from the WGS84 CRS, while [the other](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_LV03.R) employs original raster data from the LV03 CRS.
+This section provides an example for SWECO25 layers standardization. Two standardization pipelines are available: [1](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_WGS84.R) using input data provided under a WGS84 CRS, and [2](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_LV03.R) using input data provided under a LV03 CRS.
 
-The standardization workflow consists of four main steps:
+The standardization workflow follows four main steps:
 
 1) Reproject the original layer to the CH1903+ Swiss CRS 
 2) Resample to the SWECO25 grid 
@@ -17,18 +17,18 @@ Clone the repository containing the dataset processing code to your local machin
 git clone https://github.com/NKulling/SWECO25.git
 ```
 
-### Step 2: Set Up Local Variables
+### Step 2: Define Local Variables
 
-Open the R script `standardization_SWECO25_LV03.R` or `standardization_SWECO25_WGS84.R` (depending on the source data GCS) within the downloaded repository. Set the following local variable:
+Open the R script `standardization_SWECO25_LV03.R` or `standardization_SWECO25_WGS84.R` (depending on the input CRS) and define the following local variable:
 
 ```R
 #-- Local variables
 repo<-"C:/path_to_the_repo/SWECO25"  # Path to the cloned sweco25 repository
 ```
 
-### Step 3: Run the Processing Script
+### Step 3: Run the Standardization Script
 
-Execute the `standardization_SWECO25_LV03.R` or `standardization_SWECO25_WGS84.R` script within your R environment. This script will carry out the following processing steps for each input file (in the provided example data, there is only one file per pipeline):
+Run `standardization_SWECO25_LV03.R` or `standardization_SWECO25_WGS84.R` in R. This script will carry out the following steps for each input file (in the provided example data, there is only one file per pipeline):
 
 1) Load the raster file.
 2) Project the raster to Swiss GCS (LV95).
