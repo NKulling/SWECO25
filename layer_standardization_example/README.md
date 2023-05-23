@@ -1,6 +1,6 @@
 ## SWECO25 Layer Standardization
 
-This section provides an example for SWECO25 layers standardization. Two standardization pipelines are available: [(1)](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_WGS84.R) using input data provided under a WGS84 CRS, and [(2)](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_LV03.R) using input data provided under a LV03 CRS.
+This section provides an example for SWECO25 layers standardization. Two standardization pipelines are available: [(1)](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_WGS84.R) using input data provided under a [WGS84 CRS](https://epsg.io/4326), and [(2)](https://github.com/NKulling/SWECO25/blob/main/layer_standardization_example/standardization_SWECO25_LV03.R) using input data provided under a [LV03 CRS](https://epsg.io/21781).
 
 The standardization workflow follows four main steps:
 
