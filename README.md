@@ -8,7 +8,7 @@ SWECO25 is Swiss-wide raster database at 25-meter resolution for ecological rese
 ## Spatial characteristics
 | Parameter  | Value |
 | ------------- | ------------- |
-| GCS                         | CH1903+ / LV95 ( [EPSG:2056](https://epsg.io/2056)   )          |
+| GCS                         | CH1903+ / LV95 ( [EPSG:2056](https://epsg.io/2056)   )          |<img src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" data-canonical-src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" width="450"  />
 | Extent                      | 2480000, 2840000, 1070000, 1300000     |
 | Grid                        | [SWECO25 Grid](https://github.com/NKulling/SWECO25/blob/main/data/SWECO25-standardgrid.tif)      |
 | Spatial resolution (meters) | 25, 25  (x, y)                         |
