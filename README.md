@@ -13,11 +13,7 @@ SWECO25 is Swiss-wide raster database at 25-meter resolution for ecological rese
 | Grid                        | [SWECO25 Grid](https://github.com/NKulling/SWECO25/blob/main/data/SWECO25-standardgrid.tif)      |
 | Spatial resolution (meters) | 25, 25  (x, y)                         |
 
-
-<img src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" data-canonical-src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" width="400"  />
-
-
-![](https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg)
+<img src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" data-canonical-src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" width="450"  />
 
 ## Layer processing
 
