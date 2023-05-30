@@ -6,7 +6,7 @@ SWECO25 is Swiss-wide raster database at 25-meter resolution for ecological rese
 [![Download ](https://custom-icon-badges.herokuapp.com/badge/-DOWNLOAD%20SWECO25-blue?style=for-the-badge&logo=download&logoColor=white "Go to SWECO25 Zenodo repository")](https://zenodo.org/communities/sweco25/?page=1&size=20)
 
 ## Spatial characteristics
-<img src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" data-canonical-src="https://github.com/NKulling/SWECO25/blob/main/figs/swiss_outline.jpg" width="400"  />
+<img src="https://github.com/NKulling/SWECO25/blob/main/figs/ch_outline.png" data-canonical-src="https://github.com/NKulling/SWECO25/blob/main/figs/ch_outline.png" width="400"  />
 
 | Parameter  | Value |
 | ------------- | ------------- |
