@@ -1,0 +1,41 @@
+name: Update display values
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-numbers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Update Numbers
+        run: |
+          # Fetch the latest numbers from your data files
+          number1=$(cat data/download_count.txt)
+          number2=$(cat data/view_count.txt)
+
+          # Generate the updated dynamic content
+          echo "<p align='center'>
+            <img src='https://img.shields.io/badge/Downloads-$number1-blue' alt='Downloads Badge'>
+            <img src='https://img.shields.io/badge/Views-$number2-blue' alt='Views Badge'>
+          </p>" > updated_numbers.md
+
+          # Combine the static and dynamic content
+          cat README_header.md > README.md
+          cat updated_numbers.md >> README.md
+          cat README_footer.md >> README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "NKulling"
+          git add README.md
+          git commit -m "Update numbers in README.md" -a
+          git push
