@@ -28,9 +28,9 @@ jobs:
           </p>" > updated_numbers.md
 
           # Combine the static and dynamic content
-          cat README_header.md > README.md
+          cat figs/README_header.md > README.md
           cat updated_numbers.md >> README.md
-          cat README_footer.md >> README.md
+          cat figs/README_footer.md >> README.md
 
       - name: Commit and Push Changes
         run: |
