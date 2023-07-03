@@ -26,7 +26,7 @@ jobs:
             
       - name: Run R script
         run: |
-          Rscript get_download_count.R
+          Rscript figs/get_download_count.R
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
