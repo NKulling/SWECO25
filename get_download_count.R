@@ -1,4 +1,6 @@
 
+###- This code is used for displaying features in the SWECO25 github page
+
 library(magrittr)
 library(rvest)
 
@@ -9,7 +11,7 @@ scrapeDownloadCount <- function(url) {
   return(download_count)
 }
 
-# list of zenodo urls
+# list of zenodo urls from SWECO25 database
 
 sweco25<- data.frame(
   name = c("vege", "pop", "bioclim", "edaph", "geol", "hydro", "lulc", "topo", "trans", "rs"),
