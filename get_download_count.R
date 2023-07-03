@@ -55,6 +55,6 @@ totalDW<-sum(sweco25$downloads)
 totalView<-sum(sweco25$views)
 
 # Save the download count to a file
-writeLines(as.character(totalDW), "data/download_count.txt")
-writeLines(as.character(totalView), "data/view_count.txt")
+writeLines(as.character(totalDW), "data/display_data/download_count.txt")
+writeLines(as.character(totalView), "data/display_data/view_count.txt")
 
