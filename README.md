@@ -10,8 +10,8 @@ SWECO25 is Swiss-wide raster database at 25-meter resolution for ecological rese
 </p>
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Downloads-50-blue' alt='Downloads Badge'>
-  <img src='https://img.shields.io/badge/Views-622-blue' alt='Views Badge'>
+  <img src='https://img.shields.io/badge/Downloads-51-blue' alt='Downloads Badge'>
+  <img src='https://img.shields.io/badge/Views-648-blue' alt='Views Badge'>
 </p>
 
 ## Spatial characteristics
