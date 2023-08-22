@@ -1,6 +1,6 @@
 # Data Integrity Check 
 
-This repository contains code to perform a data integrity check / technical validation on each layer of the SWECO25 database using the `terra` package in R. The goal of this analysis is to ensure the consistency and quality of the data layers.
+This repository contains [code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database using the `terra` package in R. The goal of this analysis is to ensure the consistency and quality of the data layers.
 
 ## Code Overview
 
@@ -10,7 +10,7 @@ The provided R script performs the following tasks:
    - Read the raster layer using
    - Extract required information such as CRS, resolution, extent, and more.
    - Perform checks on CRS, resolution, extent, folder structure, and data integrity.
-   - Store the information in the `info_df` dataframe.
+   - Store the information in the [`info_df`](https://github.com/NKulling/SWECO25/blob/main/database_validation/result_dataframe/info_df.rds) dataframe.
 2. Perform data checks and visualizations:
    - Check CRS, resolution, extent, folder naming integrity, and data integrity.
    - Visualize range values and NA counts per dataset.
