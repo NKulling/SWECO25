@@ -28,7 +28,7 @@ All data passed the CRS, resolution, extent, naming integrity and values format 
 
 A scatter plot is generated to compare the range of values for different datasets. Datasets with extreme range values are identified and discussed. For instance, the "rs" dataset stands out due to its wide range of values, while the "pop" and "hydro" datasets have large values that are justified by the nature of the data.
 
-<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range.jpg" alt="range comparison" width="600" height="500">
+<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range.jpg" alt="range comparison" width="1000" height="1000">
 
 
 ### NA Count Comparison
