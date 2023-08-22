@@ -7,18 +7,17 @@ This repository contains [code](https://github.com/NKulling/SWECO25/blob/main/da
 The provided R script performs the following tasks:
 
 1. Loop through each raster file in the specified directory.
-   - Read the raster layer using
-   - Extract required information such as CRS, resolution, extent, and more.
-   - Perform checks on CRS, resolution, extent, folder structure, and data integrity.
+   - Read the raster layer 
+   - Extract required information to perform data check.
    - Store the information in the [`info_df`](https://github.com/NKulling/SWECO25/blob/main/database_validation/result_dataframe/info_df.rds) dataframe.
 2. Perform data checks and visualizations:
-   - Check CRS, resolution, extent, folder naming integrity, and data integrity.
+   - Check CRS, resolution, extent, folder naming integrity, and data integrity (range, NA values count, values format).
    - Visualize range values and NA counts per dataset.
    - Further investigate specific dataset for range and NA counts.
 
 ## Data Checks and Results
 
-### CRS, Resolution, Extent, and Naming Integrity Checks
+### CRS, Resolution, Extent, Naming Integrity Checks
 
 All data passed the CRS, resolution, extent, naming integrity and values format check successfully
 
