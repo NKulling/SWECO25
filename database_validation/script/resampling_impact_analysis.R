@@ -55,8 +55,6 @@ for (file in files) {
   result_table <- rbind(result_table, row)
 }
 
-
-
 ##Descriptive stats: 
 
 mean(result_table$NRMSD)      #0.009903105
@@ -69,3 +67,26 @@ mean(result_table$RSquared)   #0.9651068
 median(result_table$RSquared) #0.9896692
 sd(result_table$RSquared)     #0.04316473
 range(result_table$RSquared)  # min 0.8551718 max 0.9994933
+
+#- visualisation
+
+#- NRMSD
+ggplot(result_table, aes(x = NRMSD, y = reorder(layername, NRMSD))) +
+  geom_point(shape = 16, size = 3, position = "identity") +
+  labs(x = "NRMSD", y = "") +
+  theme_bw() +
+  scale_x_continuous(limits = c(0, 1))
+
+setwd(figures)
+ggsave("scatterplot_NRMSD.jpg", plot=last_plot(), height= 5, width= 6)
+
+#- R-squared
+ggplot(result_table, aes(x = RSquared, y = reorder(layername, RSquared))) +
+  geom_point(shape = 16, size = 3, position = "identity") +
+  labs(x = "R-squared", y = "") +
+  theme_bw() +
+  scale_x_continuous(limits = c(0, 1))
+
+setwd(figures)
+ggsave("scatterplot_RSq.jpg", plot=last_plot(), height= 5, width= 6)
+
