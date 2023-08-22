@@ -66,7 +66,7 @@ The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/s
 | **NRMSD** |  0.0099    |  0.0058   |      0.0092    | 0.0036 - 0.0413 |
 
 
-The analysis reveals that the NRMSD values across layers have a median value of 0.0058, indicating a low resampling impact. The R-squared values, with a median of 0.9897, suggest strong correlation between original and resampled values. The lowest R-squared scores are obtained by "rs" layers which were already "flagged" in the data integrity analysis as having an abnormally high range, thus introducing noise in the calculations. 
+The analysis reveals that the NRMSD (also called coefficient of variation) of tested layers have a median value of 0.0058 (sd 0.0092) indicating a low resampling impact on all layers. RMSD assesses the differences between original values and resampled / re-gridded values. To be able to compare RMSD values across the different tested layers, we normalize the RMSD coefficient using the data range. 
 
 <img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NRMSD.jpg" alt="Alt Text" width=500 height=400>
 
