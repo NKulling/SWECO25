@@ -22,7 +22,7 @@ The provided R script performs the following tasks:
 
 ### CRS, Resolution, Extent, and Naming Integrity Checks
 
-All data passed the CRS, resolution, extent, naming integrity and values format check
+All data passed the CRS, resolution, extent, naming integrity and values format check successfully
 
 ### Range Values Comparison
 
@@ -33,7 +33,7 @@ A scatter plot is generated to compare the range of values for different dataset
 
 ### NA Count Comparison
 
-Another scatter plot visualizes the NA count for different datasets. Datasets with notable NA counts are highlighted and explained. For example, the "rs" and "hydro" datasets have higher NA counts. The "trans" dataset also shows some variation in NA counts. These high NA counts are legit for "hydro" and "trans" datasets, as they represent linear features (road and river networks) with little ground coverage. 
+This scatter plot visualizes the NA count for different datasets.  The "rs" and "hydro" datasets have higher NA counts. The "trans" dataset also shows some variation in NA counts. These high NA counts are legitimate for "hydro" and "trans" datasets, as they represent linear features (road and river networks) with little ground coverage. 
 
 <img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount.jpg" alt="NA count comparison" width="500" height="400">
 
@@ -46,4 +46,4 @@ In the "rs" dataset, we observe mostly data with little to no NA value (full ext
 
 | ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range_RS.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount_RS.jpg) |
 |:---:|:---:|
-| Image 1 Description | Image 2 Description |
+| Range | NA count |
