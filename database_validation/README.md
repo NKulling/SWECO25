@@ -4,7 +4,7 @@ This repository encompasses a comprehensive data integrity check and a subsequen
 
 # 1 ) Data Integrity Check 
 
-This repository contains the R [code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database. The goal of this analysis is to ensure the consistency and quality of the data layers.
+This repository contains the [R-code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database. The goal of this analysis is to ensure the consistency and quality of the data layers.
 
 ## Code Overview
 
