@@ -46,14 +46,16 @@ In the "rs" dataset, we observe mostly data with little to no NA value (full ext
 
 # 2) Resampling Impact Analysis
 
-To assess the impact of resampling on raster layer values, we extracted 15'000 points on the original and resampled layers to compare the impact of resampling on the raster values. 
+To assess the impact of resampling on raster layer values, we extracted 15'000 points on the original and resampled layers to compare the impact of resampling on the raster values. This analysis was concluded on 28 original layers from the SWECO25 database (not performed on focal statistics or distance layers). 
+
+The R code and data used to perform the resampling impact analysis are available in this repository. 
 
 ## Code Overview
 
 - Load and analyze resampled and original raster data.
 - Calculate deltas between original and resampled values.
 - Compute descriptive statistics including mean, median, standard deviation, and complete range.
-- Compute Root Mean Square Deviation (RMSD) and Normalized RMSD (NRMSD) to quantify resampling impact.
+- Compute Normalized RMSD (NRMSD) to quantify resampling impact.
 - Calculate the R-squared value to assess the correlation between original and resampled values.
   
 ##  Results
