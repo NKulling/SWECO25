@@ -68,5 +68,5 @@ The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/s
 
 The analysis reveals that the NRMSD values across layers have a median value of 0.0058, indicating a low resampling impact. The R-squared values, with a median of 0.9897, suggest strong correlation between original and resampled values. The lowest R-squared scores are obtained by "rs" layers which were already "flagged" in the data integrity analysis as having an abnormally high range, thus introducing noise in the calculations. 
 
-<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NRMSD.jpg" alt="Alt Text" width="500" height="400">
+<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NRMSD.jpg" alt="Alt Text" width=500 height=400>
 
