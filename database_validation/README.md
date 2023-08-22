@@ -22,19 +22,15 @@ The provided R script performs the following tasks:
 
 All data passed the CRS, resolution, extent, naming integrity and values format check successfully
 
-### Range Values Comparison
+### Range Values  and NA count Comparison
 
-A scatter plot is generated to compare the range of values for different datasets. Datasets with extreme range values are identified and discussed. For instance, the "rs" dataset stands out due to its wide range of values, while the "pop" and "hydro" datasets have large values that are justified by the nature of the data.
+a first scatter plot is generated to compare the range of values for different datasets. Datasets with extreme range values are identified and discussed. For instance, the "rs" dataset stands out due to its wide range of values, while the "pop" and "hydro" datasets have large values that are justified by the nature of the data. 
+A second scatter plot visualizes the NA count for different datasets.  The "rs" and "hydro" datasets have higher NA counts. The "trans" dataset also shows some variation in NA counts. These high NA counts are legitimate for "hydro" and "trans" datasets, as they represent linear features (road and river networks) with little ground coverage. 
 
-<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range.jpg" alt="range comparison" width="500" height="400">
 
-
-### NA Count Comparison
-
-This scatter plot visualizes the NA count for different datasets.  The "rs" and "hydro" datasets have higher NA counts. The "trans" dataset also shows some variation in NA counts. These high NA counts are legitimate for "hydro" and "trans" datasets, as they represent linear features (road and river networks) with little ground coverage. 
-
-<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount.jpg" alt="NA count comparison" width="500" height="400">
-
+| ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount.jpg) |
+|:---:|:---:|
+| Range | NA count |
 
 ### Further Investigation of RS Dataset
 
