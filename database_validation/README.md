@@ -55,7 +55,7 @@ The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/s
 - Load and analyze resampled and original raster data.
 - Calculate deltas between original and resampled values.
 - Compute descriptive statistics including mean, median, standard deviation, and complete range.
-- Compute Normalized Normalized root-mean-square deviation (NRMSD) to quantify resampling impact.
+- Compute Normalized root-mean-square deviation (NRMSD) to quantify resampling impact.
 - Calculate the R-squared value to assess the correlation between original and resampled values.
   
 ##  Results
