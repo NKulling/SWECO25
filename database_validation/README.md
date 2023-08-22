@@ -60,7 +60,7 @@ The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/s
   
 ##  Results
 
-The analysis reveals that the NRMSD (also called coefficient of variation) of tested layers have a median value of 0.0058 (sd 0.0092) indicating very low difference between original and resampled/re-gridded values. 
+The analysis reveals that the NRMSD (also called coefficient of variation) of tested layers has a median value of 0.0058 (sd 0.0092) indicating very low difference between original and resampled/re-gridded values. 
 
 |         |    Mean    |  Median   | Std. Deviation |      Range       |
 |---------|------------|-----------|----------------|------------------|
