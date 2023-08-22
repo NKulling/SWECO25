@@ -2,15 +2,14 @@ library(terra)
 library(ggplot2)
 
 sweco<-"F:/SWECO25"
-template<- rast("C:/Users/kuelling/Documents/VALPAR/data_paper/SWECO25-standardgrid.tif") # get template file with ValPar.CH CRS, Extent, res
-output<-"C:/Users/kuelling/Documents/VALPAR/data_paper/data_check/resampling_test/results"
-figures<-"C:/Users/kuelling/Documents/VALPAR/data_paper/data_check/resampling_test/results/figures"
+template<- rast("/SWECO25-standardgrid.tif")        # get template file with SWECO25 CRS, Extent, res
+output<-"/results"
+figures<-"/figures"
 
-# Initialize an empty dataframe to store the information
+# Create an empty dataframe to store the information
 info_df <- data.frame()
 
 lfs<-list.files(sweco, recursive=T, pattern="\\.tif$", full.names=T)
-
 raster_files<-lfs
 
 # Loop through each raster file (5265 layers)
@@ -78,8 +77,7 @@ for (file in raster_files) {
   gc()
 }
 
-saveRDS(info_df, paste(output, "table_results.rds", sep="/"))
-
+saveRDS(info_df, paste(output, "info_df.rds", sep="/"))
 
 #--- Check the data
 
@@ -113,7 +111,7 @@ if (all(info_df[["Integer"]] == TRUE)) {            # Passed
 
 
 for(i in 1:nrow(info_df)){
-    info_df$dataset[i]<- unlist(strsplit(info_df$LayerName[i], "_"))[1] # Extract dataset
+    info_df$dataset[i]<- unlist(strsplit(info_df$LayerName[i], "_"))[1] # Extract dataset name
       }
 
 # Define a color palette 
