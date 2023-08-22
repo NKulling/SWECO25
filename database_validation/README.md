@@ -48,7 +48,7 @@ In the "rs" dataset, we observe mostly data with little to no NA value (full ext
 
 To assess the impact of resampling on raster layer values, we extracted 15'000 points on the original and resampled layers to compare the impact of resampling on the raster values. This analysis was concluded on 28 original layers from the SWECO25 database (not performed on focal statistics or distance layers). 
 
-The R code and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/data/data.zip) used to perform the resampling impact analysis are available in this repository. 
+The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/resampling_impact_analysis.R) and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/data/data.zip) used to perform the resampling impact analysis are available in this repository. 
 
 ## Code Overview
 
