@@ -40,7 +40,15 @@ Another scatter plot visualizes the NA count for different datasets. Datasets wi
 
 ### Further Investigation of RS Dataset
 
-The script performs further investigation on the "rs" dataset, exploring both range values and NA counts. We observe that the range abnormality is present only in evi, gci and lai datasets, while the ndvi and ndwi indices show normal ranges 
+We then perform a further investigation on the "rs" dataset, exploring both range values and NA counts. We observe that the range abnormality is present only in evi, gci and lai datasets, while the ndvi and ndwi indices show normal ranges 
 
 In the "rs" dataset, we observe mostly data with little to no NA value (full extent coverage), but also data with normal amount of NA's, corresponding to a cropped Swiss mask.  Finally a fraction of the data show remarkably high amount of NA values: GCI and LAI layers,from 2012 and 2016, respectively
+
+<div style="display: inline-block;">
+  <img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range_RS.jpg" alt="range" width="200" height="150">
+</div>
+<div style="display: inline-block;">
+  <img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount_RS.jpg" alt="NA" width="200" height="150">
+</div>
+
 
