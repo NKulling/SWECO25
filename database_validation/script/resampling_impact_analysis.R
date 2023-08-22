@@ -2,12 +2,10 @@ library(ggplot2)
 
 # Local variables 
 
-setwd("C:/Users/kuelling/Documents/VALPAR/data_paper/data_check/resampling_test/code")
-datafold<-"C:/Users/kuelling/Documents/VALPAR/data_paper/data_check/resampling_test/data"
+datafold<-"./data"
 
 # Files to compare
 files<-list.files(datafold, full.names = T, pattern = "*.rds")
-
 
 # Create an empty data frame to store the results
 
