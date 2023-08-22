@@ -1,4 +1,8 @@
-# Data Integrity Check 
+# Data Integrity Check and Resampling Impact Analysis
+
+This repository encompasses a comprehensive data integrity check and a subsequent analysis to evaluate the impact of resampling on the values of raster layers in the SWECO25 database. The validation process employs the `terra` package in R and aims to ensure data consistency and quality.
+
+# 1 ) Data Integrity Check 
 
 This repository contains [code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database using the `terra` package in R. The goal of this analysis is to ensure the consistency and quality of the data layers.
 
@@ -39,3 +43,17 @@ In the "rs" dataset, we observe mostly data with little to no NA value (full ext
 
 | ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range_RS.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount_RS.jpg) |
 |:---:|:---:|
+
+# 2) Resampling Impact Analysis
+
+To assess the impact of resampling on raster layer values, we extracted 15'000 points on the original and resampled layers to compare the impact of resampling on the raster values. 
+
+## Code Overview
+
+- Load and analyze resampled and original raster data.
+- Calculate deltas between original and resampled values.
+- Compute descriptive statistics including mean, median, standard deviation, and complete range.
+- Compute Root Mean Square Deviation (RMSD) and Normalized RMSD (NRMSD) to quantify resampling impact.
+- Calculate the R-squared value to assess the correlation between original and resampled values.
+
+The analysis reveals that the NRMSD values across layers have a mean of 0.009 and a standard deviation of 0.009, indicating a low resampling impact. The R-squared values, with a mean of 0.97 and standard deviation of 0.043, suggest strong correlation between original and resampled values.
