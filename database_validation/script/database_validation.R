@@ -218,7 +218,7 @@ ggplot(rs_df, aes(x = NA_Count, y = index)) +
   guides(color = "none")
 
 setwd(figures)
-ggsave("scatterplot_NAcount_RS.jpg", plot=last_plot(), height= 5, width= 6)
+ggsave("scatterplot_NA_count_RS.jpg", plot=last_plot(), height= 5, width= 6)
 
     # We observe mostly data with little to no NA value (full extent coverage),
     # but also data with normal amount of NA's, corresponding to a cropped Swiss mask
