@@ -206,7 +206,7 @@ ggsave("scatterplot_range_RS.jpg", plot=last_plot(), height= 5, width= 6)
 
 # Flagging high NA count values
 rs_df$outliers<-""
-rs_df[which(rs_df$NA_Count>quantile(rs_df$NA_Count)[4]),]$outliers <- rs_df[which(rs_df$NA_Count>quantile(rs_df$NA_Count)[4]),]$year
+rs_df[which(rs_df$NA_Count>100000000),]$outliers <- rs_df[which(rs_df$NA_Count>100000000),]$year
 
 
 ggplot(rs_df, aes(x = NA_Count, y = index)) +
