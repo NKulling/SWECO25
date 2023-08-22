@@ -10,7 +10,7 @@ This repository contains the [R-code](https://github.com/NKulling/SWECO25/blob/m
 
 The provided R script performs the following tasks:
 
-1. Loop through each raster file in the specified directory.
+1. Loop through each raster file in the SWECO25 database.
    - Read the raster layer 
    - Extract required information to perform data check.
    - Store the information in the [`info_df`](https://github.com/NKulling/SWECO25/blob/main/database_validation/result_dataframe/info_df.rds) dataframe.
