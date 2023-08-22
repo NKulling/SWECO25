@@ -1,6 +1,6 @@
 # Data Integrity Check and Resampling Impact Analysis
 
-This repository encompasses a comprehensive data integrity check and a subsequent analysis to evaluate the impact of resampling on the values of raster layers in the SWECO25 database. 
+This repository encompasses a comprehensive data integrity check and a subsequent analysis to evaluate the impact of resampling/re-gridding on the values of raster layers in the SWECO25 database. 
 
 # 1 ) Data Integrity Check 
 
