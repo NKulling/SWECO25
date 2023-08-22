@@ -61,12 +61,13 @@ The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/s
 ##  Results
 
 
+The analysis reveals that the NRMSD (also called coefficient of variation) of tested layers have a median value of 0.0058 (sd 0.0092) indicating a low resampling impact on all layers. RMSD assesses the differences between original values and resampled / re-gridded values. To be able to compare RMSD values across the different tested layers, we normalize the RMSD coefficient using the data range. 
+
 |         |    Mean    |  Median   | Std. Deviation |      Range       |
 |---------|------------|-----------|----------------|------------------|
 | **NRMSD** |  0.0099    |  0.0058   |      0.0092    | 0.0036 - 0.0413 |
 
 
-The analysis reveals that the NRMSD (also called coefficient of variation) of tested layers have a median value of 0.0058 (sd 0.0092) indicating a low resampling impact on all layers. RMSD assesses the differences between original values and resampled / re-gridded values. To be able to compare RMSD values across the different tested layers, we normalize the RMSD coefficient using the data range. 
 
 <img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NRMSD.jpg" alt="Alt Text" width=500 height=400>
 
