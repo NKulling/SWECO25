@@ -58,9 +58,11 @@ To assess the impact of resampling on raster layer values, we extracted 15'000 p
   
 ##  Results
 
+
 |         |    Mean    |  Median   | Std. Deviation |      Range       |
 |---------|------------|-----------|----------------|------------------|
 | **NRMSD** |  0.0099    |  0.0058   |      0.0092    | 0.0036 - 0.0413 |
 | **R squared** |  0.9651    |  0.9897   |      0.0432    | 0.8552 - 0.9995 |
+
 
 The analysis reveals that the NRMSD values across layers have a median value of 0.0058, indicating a low resampling impact. The R-squared values, with a median of 0.9897, suggest strong correlation between original and resampled values.
