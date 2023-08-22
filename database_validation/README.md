@@ -55,5 +55,12 @@ To assess the impact of resampling on raster layer values, we extracted 15'000 p
 - Compute descriptive statistics including mean, median, standard deviation, and complete range.
 - Compute Root Mean Square Deviation (RMSD) and Normalized RMSD (NRMSD) to quantify resampling impact.
 - Calculate the R-squared value to assess the correlation between original and resampled values.
+  
+##  Results
 
-The analysis reveals that the NRMSD values across layers have a mean of 0.009 and a standard deviation of 0.009, indicating a low resampling impact. The R-squared values, with a mean of 0.97 and standard deviation of 0.043, suggest strong correlation between original and resampled values.
+|         |    Mean    |  Median   | Std. Deviation |      Range       |
+|---------|------------|-----------|----------------|------------------|
+| **NRMSD** |  0.0099    |  0.0058   |      0.0092    | 0.0036 - 0.0413 |
+| **R squared** |  0.9651    |  0.9897   |      0.0432    | 0.8552 - 0.9995 |
+
+The analysis reveals that the NRMSD values across layers have a median value of 0.0058, indicating a low resampling impact. The R-squared values, with a median of 0.9897, suggest strong correlation between original and resampled values.
