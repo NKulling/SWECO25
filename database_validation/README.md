@@ -1,10 +1,10 @@
 # Data Integrity Check and Resampling Impact Analysis
 
-This repository encompasses a comprehensive data integrity check and a subsequent analysis to evaluate the impact of resampling on the values of raster layers in the SWECO25 database. The validation process employs the `terra` package in R and aims to ensure data consistency and quality.
+This repository encompasses a comprehensive data integrity check and a subsequent analysis to evaluate the impact of resampling on the values of raster layers in the SWECO25 database. 
 
 # 1 ) Data Integrity Check 
 
-This repository contains [code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database using the `terra` package in R. The goal of this analysis is to ensure the consistency and quality of the data layers.
+This repository contains the R [code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database. The goal of this analysis is to ensure the consistency and quality of the data layers.
 
 ## Code Overview
 
