@@ -35,6 +35,8 @@ A scatter plot is generated to compare the range of values for different dataset
 
 Another scatter plot visualizes the NA count for different datasets. Datasets with notable NA counts are highlighted and explained. For example, the "rs" and "hydro" datasets have higher NA counts. The "trans" dataset also shows some variation in NA counts. These high NA counts are legit for "hydro" and "trans" datasets, as they represent linear features (road and river networks) with little ground coverage. 
 
+<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount.jpg" alt="NA count comparison" width="500" height="400">
+
 ### Further Investigation of RS Dataset
 
 The script performs further investigation on the "rs" dataset, exploring both range values and NA counts. We observe that the range abnormality is present only in evi, gci and lai datasets, while the ndvi and ndwi indices show normal ranges 
