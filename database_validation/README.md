@@ -6,14 +6,12 @@ This repository contains code to perform a data integrity check / technical vali
 
 The provided R script performs the following tasks:
 
-1. Load necessary libraries and define file paths.
-2. Initialize an empty dataframe to store layer information.
-3. Loop through each raster file in the specified directory.
+1. Loop through each raster file in the specified directory.
    - Read the raster layer using
    - Extract required information such as CRS, resolution, extent, and more.
    - Perform checks on CRS, resolution, extent, folder structure, and data integrity.
    - Store the information in the `info_df` dataframe.
-4. Perform data checks and visualizations:
+2. Perform data checks and visualizations:
    - Check CRS, resolution, extent, folder naming integrity, and data integrity.
    - Visualize range values and NA counts per dataset.
    - Further investigate specific dataset for range and NA counts.
