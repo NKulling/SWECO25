@@ -1,65 +1,63 @@
-# Data Integrity Check and Resampling Impact Analysis
+# Data Integrity Check and Resampling Effects Analysis
 
-This repository encompasses a comprehensive data integrity check and a subsequent analysis to evaluate the impact of resampling/re-gridding on the values of raster layers in the SWECO25 database. 
+This repository contains the data integrity check and an analysis aimed at evaluating possible effects of resampling the values of source raster layers to the SWECO25 grid. 
 
 # 1 ) Data Integrity Check 
 
-This repository contains the [R-code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) to perform a data integrity check / technical validation on each layer of the SWECO25 database. The goal of this analysis is to ensure the consistency and quality of the data layers.
+The goal of this analysis was to ensure the consistency and quality of SWECO25 layers. The [R-code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/database_validation.R) and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/result_dataframe/info_df.rds) used to perform this check is available in this repository. 
 
 ## Code Overview
 
 The provided R script performs the following tasks:
 
-1. Loop through each raster file in the SWECO25 database.
-   - Read the raster layer 
-   - Extract required information to perform data check.
-   - Store the information in the [`info_df`](https://github.com/NKulling/SWECO25/blob/main/database_validation/result_dataframe/info_df.rds) dataframe.
-2. Perform data checks and visualizations:
-   - Check CRS, resolution, extent, folder naming integrity, and data integrity (range, NA values count, values format).
-   - Visualize range values and NA counts per dataset.
-   - Further investigate specific dataset for range and NA counts.
+1. Loop through each raster file available in SWECO25.
+   - Import the raster layer in R
+   - Extract raster information needed for data check.
+   - Store them in a dataframe.
+2. Perform data check and visualizations:
+   - Check CRS, resolution, extent, folder name, and data integrity (range, NA values count, values format).
+   - Plot range values and NA counts.
+   - Investigate datasets with suspicious range or NA count values.
 
-## Data Checks and Results
+## Data Check and Results
 
 ### CRS, Resolution, Extent, Naming Integrity Checks
 
-All data passed the CRS, resolution, extent, naming integrity and values format check successfully
+All layers passed the CRS, resolution, extent, naming integrity and values format check successfully
 
 ### Range Values  and NA count Comparison
 
-A first scatter plot is generated to compare the range of values of the different datasets. Datasets with extreme range values are identified and discussed. For instance, the "rs" dataset stands out due to its wide range of values, while the "pop" and "hydro" datasets have large range of values that are justified by the nature of the data. 
-A second scatter plot visualizes the NA count of the different datasets.  The "rs", "hydro", and "trans" datasets have higher NA counts values than the other datasets. These high NA counts are legitimate for "hydro" and "trans" datasets, as these layers represent linear features (road and river networks) with little ground coverage. 
+A first scatter plot was generated to compare the range values of the datasets. Datasets with extreme range values were identified and discussed. For instance, the"pop" and "hydro" datasets had large ranges that are justified by the nature of the data (i.e. "pop" displays population density per pixel and can thus reach high values, and "hydro" represents the distance in meters to different river classes, which can be consequent). On the other hand, the "rs" dataset had the largest range which is not justified by the normal range of remote sensing indices.
+A second scatter plot was generated to display the number of NA  per dataset.  The "rs", "hydro", and "trans" datasets had a higher count of  NA values than the others. These high NA counts were considered valid for "hydro" and "trans" datasets, as these include layers that are calculated from linear features (road and river networks) with little ground coverage. 
 
 
 | ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NAcount.jpg) |
 |:---:|:---:|
 
 
-### Further Investigation of RS Dataset
+### Investigation of RS Dataset
 
-Further investigation is done on the "rs" dataset, exploring both range values and NA counts. We observe that the range abnormality is present only in evi, gci and lai datasets, while the ndvi and ndwi indices show normal ranges 
+Further investigation was done for the "rs" dataset, for which we explored both range values and NA counts. We observed that the abnormally high range were apparent in only the EVI, GCI and LAI layers, while the NDVI and NDWI layers exhibited the expected ranges.
 
-In the "rs" dataset, we observe mostly data with little to no NA value (full extent coverage), but also data with normal amount of NA's, corresponding to a cropped Swiss mask.  Finally a fraction of the data show remarkably high amount of NA values: GCI and LAI layers,from 2012 and 2016, respectively
+In the "rs" dataset, most layers had little to no NA values (full extent coverage). Layers masked with a Swiss polygon had an higher -as expected- amout of NA's. Finally, we identified that GCI and LAI layers from 2012 and 2016, respectively, had a very high amount of NA values. Further investigation of these two layers highlighted that the mean GCI layer from 2012 (rs_sdc_2013_gci_mean.tif) was empty for most of Switzerland coverage, and that the standard deviation LAI layer from 2016 (rs_sdc_2016_lai_sd.tif) was, as well empty for most of Switzerland coverage. 
 
 | ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range_RS.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NA_count_RS.jpg) |
 |:---:|:---:|
 
-# 2) Resampling Impact Analysis
+# 2) Resampling effects Analysis
 
-To assess the impact of resampling on raster layer values, we extracted 15'000 random points on the original and resampled layers to compare the impact of resampling on the raster values. This analysis was concluded on 28 original layers from the SWECO25 database (not performed on focal statistics or distance layers). 
-
-The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/resampling_impact_analysis.R) and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/data/data.zip) used to perform the resampling impact analysis are available in this repository. 
+We assessed the impact of spatial resampling on SWECO25 layers by comparing the values of 15'000 randomly extracted points from both the source and resampled layers. This analysis was conducted on 28 source layers. The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/resampling_impact_analysis.R) and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/data/data.zip) used to perform the resampling effect analysis are available in this repository. 
 
 ## Code Overview
 
-- Load and analyze resampled and original raster data.
-- Calculate deltas between original and resampled values.
-- Compute descriptive statistics including mean, median, standard deviation, and complete range.
-- Compute Normalized root-mean-square deviation (NRMSD) to quantify resampling impact.
+- Load the values of resampled and source rasters.
+- Calculate the differences.
+- Compute descriptive statistics: mean, median, standard deviation, and complete range.
+- Compute Normalized root-mean-square deviation (NRMSD)- or coefficient of variation - to quantify resampling effects.
   
 ##  Results
 
-The analysis reveals that the NRMSD (also called coefficient of variation) of tested layers has a median value of 0.0058 (sd 0.0092) indicating very low difference between original and resampled/re-gridded values. 
+This analysis revealed that the NRMSD of tested layers had a median value of 0.0058 (sd 0.0092) indicating very low difference between original and resampled values. 
 
 |         |    Mean    |  Median   | Std. Deviation |      Range       |
 |---------|------------|-----------|----------------|------------------|
