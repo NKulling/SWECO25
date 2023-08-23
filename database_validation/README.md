@@ -39,7 +39,7 @@ A second scatter plot was generated to display the number of NA  per dataset.  T
 
 Further investigation was done for the "rs" dataset, for which we explored both range values and NA counts. We observed that the abnormally high range were apparent in only the EVI, GCI and LAI layers, while the NDVI and NDWI layers exhibited the expected ranges.
 
-In the "rs" dataset, most layers had little to no NA values (full extent coverage). Layers masked with a Swiss polygon had an higher -as expected- amout of NA's. Finally, we identified that GCI and LAI layers from 2012 and 2016, respectively, had a very high amount of NA values. Further investigation of these two layers highlighted that the mean GCI layer from 2012 (rs_sdc_2013_gci_mean.tif) was empty for most of Switzerland coverage, and that the standard deviation LAI layer from 2016 (rs_sdc_2016_lai_sd.tif) was, as well empty for most of Switzerland coverage. 
+In the "rs" dataset, most layers had little to no NA values (full extent coverage). Layers masked with a Swiss polygon had an higher -as expected- amout of NA's. Finally, we identified that GCI and LAI layers from 2012 and 2016, respectively, had a very high amount of NA values. Further investigation of these two layers highlighted that the mean GCI layer from 2012 (rs_sdc_2013_gci_mean.tif) was empty for most of Switzerland coverage, and that the standard deviation LAI layer from 2016 (rs_sdc_2016_lai_sd.tif) was, as well, empty for most of Switzerland coverage. 
 
 | ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_range_RS.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NA_count_RS.jpg) |
 |:---:|:---:|
