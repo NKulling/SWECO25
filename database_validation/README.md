@@ -53,7 +53,8 @@ We assessed the impact of spatial resampling on SWECO25 layers by comparing the 
 - Load resampled and source rasters
 - Calculate differences at sampling points
 - Compute descriptive statistics: mean, median, standard deviation, and complete range
-- Compute Normalized root-mean-square deviation (NRMSD)- or coefficient of variation - to quantify resampling effects
+- Compute Normalized root-mean-square deviation (NRMSD)- or coefficient of variation - to quantify resampling effects for continuous data
+- Compute Dice's coefficient to quantify resampling effects for discrete data
   
 ##  Results
 
