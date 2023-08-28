@@ -66,5 +66,8 @@ This analysis revealed that the NRMSD of tested layers had a median value of 0.0
 
 
 
-<img src="https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NRMSD.jpg" alt="Alt Text" width=500 height=400>
+| ![Alt Text 1](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_NRMSD.jpg) | ![Alt Text 2](https://github.com/NKulling/SWECO25/blob/main/database_validation/figures/scatterplot_Dice.jpg) |
+|:---:|:---:|
+
+
 
