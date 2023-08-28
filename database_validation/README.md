@@ -59,9 +59,10 @@ We assessed the impact of spatial resampling on SWECO25 layers by comparing the 
 
 This analysis revealed that the NRMSD of tested layers had a median value of 0.0058 (sd 0.0092) indicating very low difference between original and resampled values. 
 
-|         |    Mean    |  Median   | Std. Deviation |      Range       |
-|---------|------------|-----------|----------------|------------------|
-| **NRMSD** |  0.0099    |  0.0058   |      0.0092    | 0.0036 - 0.0413 |
+|                    |   Mean   |  Median  | Std. Deviation |       Range       | Nb. layers |     Data type      |
+|--------------------|----------|----------|----------------|-------------------|------------|-------------------|
+| **NRMSD**          |  0.0190  |  0.0066  |     0.0348     | 0.0010 - 0.1810   |      32      |        Continuous           |
+| **Dice's coefficient** | 0.9412 | 0.9905   |     0.073      | 0.8234 - 1.0000   |     7      |           Discrete        |
 
 
 
