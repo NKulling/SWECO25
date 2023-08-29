@@ -52,13 +52,13 @@ We assessed the impact of spatial resampling on SWECO25 layers by comparing the 
 
 - Load resampled and source rasters
 - Calculate differences at sampling points
-- Compute descriptive statistics: mean, median, standard deviation, and complete range
 - Compute Normalized root-mean-square deviation (NRMSD)- or coefficient of variation - to quantify resampling effects for continuous data
 - Compute Dice's coefficient to quantify resampling effects for discrete data
   
 ##  Results
 
-This analysis revealed that the NRMSD of tested layers had a median value of 0.0058 (sd 0.0092) indicating very low difference between original and resampled values. 
+This analysis revealed that the NRMSD of tested layers had a median value of 0.0066 (sd 0.0348 ), and the Dice's coefficient of tested layers had a median value of 0.9905 (sd 0.073), indicating very low difference between original and resampled values. 
+The layers that displayed the most prominent disparities between the source and SWECO25 layers ("topo_alti3d_aspect_mean" and "wsl_habitat_group") were those subjected to upscaling processing in SWECO25. This upscaling transitioned from an approximately 2-meter resolution to 25 meters, thereby providing a reasonable explanation for the potential deviations in values at randomly sampled points.
 
 |                    |   Mean   |  Median  | Std. Deviation |       Range       | Nb. layers |     Data type      |
 |--------------------|----------|----------|----------------|-------------------|------------|-------------------|
