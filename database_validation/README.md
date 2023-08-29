@@ -46,7 +46,7 @@ In the "rs" dataset, most layers had little or no NA values (full extent coverag
 
 # 2) Resampling effects
 
-We assessed the impact of spatial resampling on SWECO25 layers by comparing the values of 15'000 randomly points extracted from the source and resampled layers. This analysis was conducted for 28 source layers. The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/resampling_impact_analysis.R) and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/data/data.zip) used to perform this analysis are available in this repository.
+We assessed the impact of spatial resampling on SWECO25 layers by comparing the values of 15'000 randomly points extracted from the source and resampled layers. This analysis was conducted for 39 source layers. The [R code](https://github.com/NKulling/SWECO25/blob/main/database_validation/script/resampling_impact_analysis.R) and [data](https://github.com/NKulling/SWECO25/blob/main/database_validation/data/data.zip) used to perform this analysis are available in this repository.
 
 ## Code overview
 
