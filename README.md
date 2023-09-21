@@ -16,6 +16,9 @@ The [detailed list](https://github.com/NKulling/SWECO25/blob/main/data/SWECO25_d
   <img src='https://img.shields.io/badge/Views-2143-blue' alt='Views Badge'>
 </p>
 
+
+[View Shiny App](https://github.com/your-username/your-repo-name/download_chart.html)
+
 ## Spatial characteristics
 <img src="https://github.com/NKulling/SWECO25/blob/main/figs/ch.png" data-canonical-src="https://github.com/NKulling/SWECO25/blob/main/figs/ch.png" width="500"  />
 
