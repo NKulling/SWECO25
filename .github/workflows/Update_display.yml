@@ -19,12 +19,10 @@ jobs:
         run: |
           # Fetch the latest numbers from your data files
           number1=$(cat data/display_data/download_count.txt)
-          number2=$(cat data/display_data/view_count.txt)
 
           # Generate the updated dynamic content
           echo "<p align='center'>
             <img src='https://img.shields.io/badge/Downloads-$number1-blue' alt='Downloads Badge'>
-            <img src='https://img.shields.io/badge/Views-$number2-blue' alt='Views Badge'>
           </p>" > updated_numbers.md
 
           # Combine the static and dynamic content
