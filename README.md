@@ -13,7 +13,6 @@ The [detailed list](https://github.com/NKulling/SWECO25/blob/main/data/SWECO25_d
 
 <p align='center'>
   <img src='https://img.shields.io/badge/Downloads-273-blue' alt='Downloads Badge'>
-  <img src='https://img.shields.io/badge/Views-3309-blue' alt='Views Badge'>
 </p>
 
 ## Spatial characteristics
