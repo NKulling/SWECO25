@@ -12,7 +12,7 @@ The [detailed list](https://github.com/NKulling/SWECO25/blob/main/data/SWECO25_d
 </p>
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Downloads-896-blue' alt='Downloads Badge'>
+  <img src='https://img.shields.io/badge/Downloads-905-blue' alt='Downloads Badge'>
 </p>
 
 ## Spatial characteristics
@@ -41,9 +41,3 @@ Individual layers from selected datasets were processed following an eight-step 
 8. saving the final raster layers as GeoTiFF files
 
 For more details on the [standardization procedure](https://github.com/NKulling/SWECO25/tree/main/layer_standardization_example) and [focal](https://github.com/NKulling/SWECO25/tree/main/focal_statistics_toolbox) or [distance](https://github.com/NKulling/SWECO25/tree/main/distance_toolbox) statistics computation see the R scripts and ArcGIS toolboxes.
-
-## Reference 
-
-Külling, N., Adde, A., Fopp, F., Schweiger, A. K., Broennimann, O., Rey, P.-L., Giuliani, G., Goicolea, T., Petitpierre, B., Zimmermann, N. E., Pellissier, L., Altermatt, F., Lehmann, A., & Guisan, A. (2024). SWECO25: A cross-thematic raster database for ecological research in Switzerland. Scientific Data, 11(1), Article 1. https://doi.org/10.1038/s41597-023-02899-1
-
-
