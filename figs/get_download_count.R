@@ -43,7 +43,7 @@ download_count <- scrapeDownloadCount(zenodo_url)
 
 download_count<-download_count[-which(is.na(download_count))]
 
-sweco25$downloads[i]<-download_count[2]
+sweco25$downloads[i]<-min(download_count)
 sweco25$views[i]<-download_count[1]
 
 
