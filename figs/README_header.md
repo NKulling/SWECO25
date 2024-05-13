@@ -1,4 +1,5 @@
-## SWECO25 <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=Open+Access&color=#79C83D" alt="Open Access"></a> <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=FAIR&color=black" alt="FAIR"></a>
+## SWECO25 <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=Open+Access&color=#79C83D" alt="Open Access"></a> <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=FAIR&color=black" alt="FAIR"></a> <a href="https://doi.org/10.1038/s41597-023-02899-1"><img src="https://img.shields.io/badge/DOI-10.1016/j.ecolind.2024.112079-blue" alt="Go to article publication">
+
 
 
 SWECO25 is Swiss-wide raster database at 25-meter resolution for ecological research in Switzerland gathering 5,265 layers from 10 main environmental categories. SWECO25 layers were standardized to a common spatial grid covering all of Switzerland, so they all share the same spatial resolution, extent, and geographic coordinate system. SWECO25 includes both the standardized source data and newly calculated layers, such as those obtained by computing focal or distance statistics.
