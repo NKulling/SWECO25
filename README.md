@@ -1,4 +1,4 @@
-## SWECO25 <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=Open+Access&color=#79C83D" alt="Open Access"></a> <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=FAIR&color=black" alt="FAIR"></a> <a href="https://doi.org/10.1038/s41597-023-02899-1"><img src="https://img.shields.io/badge/DOI-10.1016/j.ecolind.2024.112079-blue" alt="Go to article publication">
+## SWECO25 <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=Open+Access&color=#79C83D" alt="Open Access"></a> <a href="https://"><img src="https://img.shields.io/static/v1?label=&message=FAIR&color=black" alt="FAIR"></a> <a href="https://doi.org/10.1038/s41597-023-02899-1"><img src="https://img.shields.io/badge/DOI/10.1038/s41597-023-02899-1-blue" alt="Go to article publication">
 
 
 
@@ -13,7 +13,7 @@ The [detailed list](https://github.com/NKulling/SWECO25/blob/main/data/SWECO25_d
 </p>
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Downloads-1793-blue' alt='Downloads Badge'>
+  <img src='https://img.shields.io/badge/Downloads-1820-blue' alt='Downloads Badge'>
 </p>
 
 ## Spatial characteristics
